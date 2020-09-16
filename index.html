@@ -4,140 +4,32 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('/w3images/forestbridge.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
 </style>
-<body class="w3-light-grey">
+<body>
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="data:image/jpeg;base64,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" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Sachin Katageri</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Data Science</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Bengaluru,KA</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>sachin.kumar.katageri@mail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>9632818041</p>
-          <hr>
-
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Exploratory Data Analysis</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>Python</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
-            </div>
-          </div>
-          <p>Machine learning</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-          <p>Tableau</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">50%</div>
-          </div>
-          <br>
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:80%"></div>
-          </div>
-          <p>Hindi</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:80%"></div>
-          </div>
-          <p>Telugu</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:80%"></div>
-          </div>
-          <p>Kannada</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <br>
-        </div>
-      </div><br>
-
-    <!-- End Left Column -->
-    </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Data science Traine,The Spark Foundation</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2020 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-       
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Data Analyst,Espycons</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>dec 2019 - Feb 2020</h6>
-          
-          <hr>
-        
-      </div>
-
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <p>Web Development! All I need to know in one place</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>London Business School</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Master Degree</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Coding</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Bachelor Degree</p><br>
-        </div>
-      </div>
-
-    <!-- End Right Column -->
-    </div>
-    
-  <!-- End Grid -->
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    Logo
   </div>
-  
-  <!-- End Page Container -->
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">35 days left</p>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+  </div>
 </div>
-
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>Powered by <a href="https://twitter.com/sachinkatageri" target="_blank">w3.css</a></p>
-</footer>
 
 </body>
 </html>
+
