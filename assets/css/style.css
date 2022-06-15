@@ -26,7 +26,24 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
+.float{
+  position:fixed;
+  width:30px;
+  height:30px;
+  bottom:20px;
+  right:20px;
+  background-color:#149ddd;
+  color:#FFF;
+  border-radius:40px;
+  text-align:center;
+  font-size:20px;
+  box-shadow: 2px 2px 3px #000;
+  z-index:100;
+}
 
+.my-float{
+  margin-top:4px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -635,6 +652,55 @@ section {
   color: #149ddd;
 }
 .services .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+
+/*--------------------------------------------------------------
+# epic
+--------------------------------------------------------------*/
+.epic .icon-box {
+  margin-bottom: 20px;
+}
+.epic .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #149ddd;
+}
+.epic .icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+.epic .icon-box:hover .icon {
+  background: #fff;
+}
+.epic .icon-box:hover .icon i {
+  color: #149ddd;
+}
+.epic .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.epic .title a {
+  color: #343a40;
+}
+.epic .title a:hover {
+  color: #149ddd;
+}
+.epic .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
