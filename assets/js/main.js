@@ -4,6 +4,14 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+document.addEventListener('contextmenu', function (e) {
+  e.preventDefault();
+});
+
+if (window.console && window.console.firebug) {
+  alert("Firebug is running");
+}
+
 (function() {
   "use strict";
 
