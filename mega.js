@@ -1,0 +1,1 @@
+{ var h = e('</a>').attr("href", ""), d = e("<img>").attr("src", "").attr("alt", "").css({ marginRight: "4px", width: "26px" }), y = e("<img>").attr("src", "").attr("alt", ""); return h.append(d, y), h[0] } function g() 
