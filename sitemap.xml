@@ -1,76 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-  <!-- Homepage -->
-  <url>
-    <loc>https://sachinkatageri.github.io/</loc>
-    <lastmod>2026-04-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- About Me -->
-  <url>
-    <loc>https://sachinkatageri.github.io/aboutme.html</loc>
-    <lastmod>2026-04-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Contact -->
-  <url>
-    <loc>https://sachinkatageri.github.io/contactme.html</loc>
-    <lastmod>2026-04-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Shop -->
-  <url>
-    <loc>https://sachinkatageri.github.io/shop.html</loc>
-    <lastmod>2026-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Blog -->
-  <url>
-    <loc>https://sachinkatageri.github.io/blog.html</loc>
-    <lastmod>2026-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Project Pages -->
-  <url>
-    <loc>https://sachinkatageri.github.io/lms.html</loc>
-    <lastmod>2026-04-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://sachinkatageri.github.io/fmcg.html</loc>
-    <lastmod>2026-04-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://sachinkatageri.github.io/shop.html</loc>
-    <lastmod>2026-04-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://sachinkatageri.github.io/unleshed.html</loc>
-    <lastmod>2026-04-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://sachinkatageri.github.io/</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://sachinkatageri.github.io/about.html</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://sachinkatageri.github.io/portfolio.html</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://sachinkatageri.github.io/contact.html</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://sachinkatageri.github.io/projects/mynuclo.html</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://sachinkatageri.github.io/projects/autocrud.html</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://sachinkatageri.github.io/projects/testkase.html</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://sachinkatageri.github.io/projects/ortum.html</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://sachinkatageri.github.io/projects/onified.html</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://sachinkatageri.github.io/projects/vital-ai.html</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://sachinkatageri.github.io/projects/el-cambio-logico.html</loc><lastmod>2026-09-29</lastmod></url>
 </urlset>
